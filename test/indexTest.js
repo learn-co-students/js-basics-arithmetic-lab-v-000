@@ -32,23 +32,23 @@ describe('index.js', function () {
     });
   });
 
-  describe('randomInteger', function () {
-    it("contains the value of 'randomNumber' rounded down to the nearest integer", function () {
-      expect(Number.isInteger(randomInteger)).to.be.true;
+  // describe('randomInteger', function () {
+  //   it("contains the value of 'randomNumber' rounded down to the nearest integer", function () {
+  //     expect(Number.isInteger(randomInteger)).to.be.true;
 
-      expect(randomInteger).to.be.at.least(0).and.at.most(19);
-    });
+  //     expect(randomInteger).to.be.at.least(0).and.at.most(19);
+  //   });
 
-    it("invokes 'Math.floor()'", function () {
-      expect(spyOnMathFloor.calledOnce).to.be.true;
-    });
-  });
+  //   it("invokes 'Math.floor()'", function () {
+  //     expect(spyOnMathFloor.calledOnce).to.be.true;
+  //   });
+  // });
 
-  describe('randomUserID', function () {
-    it('contains a random integer between 1000000001 and 1000000020', function () {
-      expect(Number.isInteger(randomUserID)).to.be.true;
+  // describe('randomUserID', function () {
+  //   it('contains a random integer between 1000000001 and 1000000020', function () {
+  //     expect(Number.isInteger(randomUserID)).to.be.true;
 
-      expect(randomUserID).to.be.at.least(1000000001).and.at.most(1000000020);
-    });
-  });
+  //     expect(randomUserID).to.be.at.least(1000000001).and.at.most(1000000020);
+  //   });
+  // });
 });
