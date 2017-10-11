@@ -27,9 +27,6 @@ describe('index.js', function () {
       expect(randomNumber).to.be.at.least(0).but.below(20);
     });
 
-    it("invokes 'Math.random()'", function () {
-      expect(spyOnMathRandom.calledOnce).to.be.true;
-    });
   });
 
   describe('randomInteger', function () {
