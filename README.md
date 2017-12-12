@@ -1,4 +1,4 @@
-# Arithmetic Lab
+# Arithmetic Lab!
 
 ## Overview
 This lab introduces a number of the common operators and objects you'll use to perform arithmetic operations in JavaScript.
