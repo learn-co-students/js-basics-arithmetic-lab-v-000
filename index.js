@@ -7,15 +7,14 @@ You should NOT try to redefine any of the above variables.
 */
 
 // Write your code below this line!
+const newID = oldID + 1000000000;
 
-newID = oldID + 1000000000
+const ageIsValid = Number.isInteger(currentAge);
 
-let ageIsValid = Number.isInteger(currentAge);
+const randomNumber = Math.floor(Math.random() * 20) + 1;
+// also works and is simpler
+//const randomNumber = Math.random() * 20;
 
-let randomNumber = Math.random();
+const randomInteger = Math.floor(randomNumber);
 
-let randomInteger = Math.floor(randomNumber);
-
-// this did not work, but the code below is much better anyway
-// let randomUserID = Math.floor(Math.random()*1000000020) + 1
 const randomUserID = randomInteger + 1000000001;
