@@ -8,12 +8,12 @@ You should NOT try to redefine any of the above variables.
 
 // Write your code below this line!
 
-const newID = 1000000000 + parseInt(`${oldID}`, 10);
+const newID = 1000000000 + oldID;
 
-let ageIsValid = Number.isInteger(`${currentAge}`);
+let ageIsValid = Number.isInteger(currentAge);
 
-let randomNumber = Math.floor(Math.random() * 20) + 1;
+let randomNumber = Math.floor(Math.random() * 20);
 
-let randomInteger = Math.floor(`${randomNumber}`);
+let randomInteger = Math.floor(randomNumber);
 
-let randomUserID = Math.ceil(`${randomInteger}`) + 1000000001;
+let randomUserID = randomInteger + 1000000001;
