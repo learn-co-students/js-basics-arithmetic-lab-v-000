@@ -32,7 +32,7 @@ interesting technical limitations on the precision of the arithmetic we can
 perform with JavaScript. For example:
 
 ```js
-0.1 * 0.1;
+0.1 * 0.1;  
 //=> 0.010000000000000002
 
 0.1 + 0.1 + 0.1;
