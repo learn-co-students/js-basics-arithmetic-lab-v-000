@@ -15,8 +15,7 @@ const ageIsValid = Number.isInteger(currentAge)
 
 
   const randomNumber = Math.floor(Math.random() * 20 ) + 1;
+  const randomInteger = Math.round(Math.random() * 20 ) + 1;
 
-// contains a random number greater than or equal to 0 and less than 20
-// = newID.floor(newID.random() * 20) + 1;
 
-// invokes 'Math.random()'
+  const randomUserID =  Math.round(Math.random()* 20) + 1000000001 ;
