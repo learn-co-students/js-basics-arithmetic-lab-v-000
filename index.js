@@ -11,12 +11,12 @@ You should NOT try to redefine any of the above variables.
 
 const newID = 1000000000 + oldID
 
-const ageIsValid = currentAgeIsInteger
-Number.isInteger()
+const ageIsValid = Number.isInteger(currentAge) 
 
+
+  const randomNumber = Math.floor(Math.random() * 20 ) + 1;
 
 // contains a random number greater than or equal to 0 and less than 20
-//  const randomNumber 
 // = newID.floor(newID.random() * 20) + 1;
 
 // invokes 'Math.random()'
