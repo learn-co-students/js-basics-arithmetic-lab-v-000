@@ -13,10 +13,10 @@ newID += 1000000000;
 let ageIsValid = currentAge;
 ageIsValid = Number.isInteger();
 
-let randomNumber = Math.random();
+let randomNumber = Math.random(5);
 
 let randomInteger = randomNumber;
 
-randomInteger = Math.round(0);
+randomInteger = Math.floor(0);
 
-let randomUserID = Math.floor(Math.random() * 1000000001) + 27267482;
+let randomUserID = Math.floor(Math.random() + 1000000019) + 1;
