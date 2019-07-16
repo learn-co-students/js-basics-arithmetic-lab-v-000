@@ -5,5 +5,10 @@ Variables defined in the test suite:
 
 You should NOT try to redefine any of the above variables.
 */
+let newID = oldID + 1000000000;
+let ageIsValid = Number.isInteger(currentAge);
 
-// Write your code below this line!
+let randomNumber = Math.floor(Math.random()*20) + 1;
+let randomInteger = Math.floor(randomNumber);
+
+let randomUserID = randomInteger + 1000000000;
